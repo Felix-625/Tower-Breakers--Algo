@@ -1,1 +1,3 @@
 # Tower-Breakers--Algo
+
+This problem where two players take turns reducing the height of one of several towers under specific rules. The towerBreakers function uses game theory to determine the winner: if all towers are of height 1 (m equals 1) or if the number of towers n is even, Player 2 wins by mirroring Player 1’s moves; otherwise, Player 1 can force a win. The main function handles multiple test cases by reading and parsing input, then writing the result (1 for Player 1 or 2 for Player 2) to an output file. Helper functions ltrim, rtrim, and split ensure input strings are trimmed and correctly split into components for processing.
